@@ -1,3 +1,25 @@
+
+#Task 1 - print('\n # Task 5 - Guessing Game')
+import random
+hidden = random.randint(1, 20)
+count = 0
+while count < 3:
+    count +=1
+    captureGuess=int(input("Enter your Guess Number "))
+    if x == captureGuess:
+        print("Congratulations you did in ",count, " try")
+        break
+    elif x > captureGuess:
+        print("You guessed too low \n ")
+    elif x < guess:
+        print("You Guessed too high \n ")
+if (count >= 3 and x != captureGuess):
+    print("\nThe number is %d" % x)
+    print("\tBetter Luck Next time \n")
+
+
+
+
 #Given a list ['a', 'b', ...] print elements along with their position like 0: a, 1: b one per line
 print('\n # Task 2 - Print Elements along with their Positions one per line')
 arrayList=['a','b','c','d','e','f']
